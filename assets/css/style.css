@@ -7,7 +7,7 @@
     color: white;
     text-align: center;
     font-family: "Open Sans";
-    
+    font-size: larger;
 }
   
 /* Title of the game */
@@ -37,17 +37,18 @@
     outline: none;
     border-color: rgb(51, 107, 51);
     cursor: pointer;
+    font-size: smaller;
 }
-
+ /* to make the letters fit in in the buttons  */
 #userchoice {
     font-size: small;
 }
-
+/* shows the choice that the computer had made */
 #computerchoice {
 font-size: small;
 text-align: center;
 }
-  
+/* shows who winns */
 .result{
     margin-top: 5px;
     font-size: 28px;
