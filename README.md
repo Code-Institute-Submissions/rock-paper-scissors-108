@@ -6,6 +6,19 @@ I started with a wireframe  but had other emojs to start with,you can see them i
 
 ![New Wireframe 1](https://github.com/MariaHdezG/rock-paper-scissors/assets/125393563/d5a5f57e-2125-42a1-a54c-6d2c1f59c441)
 
+## Features
+This is how the site looks like before the user starts to play.
+![screenshot before playing](https://github.com/MariaHdezG/rock-paper-scissors/assets/125393563/4575a91b-27a0-4074-8246-cc6a7f04d2ef)
+
+This is how it looks like when it is a draw between the user and the computer.
+![screenshot draw](https://github.com/MariaHdezG/rock-paper-scissors/assets/125393563/e8488ce1-ca56-4167-962d-6fd3717e355f)
+
+This is how it looks like when the computer winns against the user.
+![screenshot computer winns](https://github.com/MariaHdezG/rock-paper-scissors/assets/125393563/09c5a1ed-5868-4b2d-89d4-8863e95281a5)
+
+This is how it looks like when the user winns against the computer.
+![screenshoot when user wins](https://github.com/MariaHdezG/rock-paper-scissors/assets/125393563/237bdd11-ccf1-4460-9270-b31711d88277)
+
 ## Running Tests
 
 I had the HTML tested in Validator and there. No errors were returned when passing through the official W3C for CSS. JSHint suggests that I change Javascript version, but I choose to stick to the one that have since it is functioning for this project.
