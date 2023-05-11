@@ -1,6 +1,11 @@
 Rock paper scissors
 
 This project is about the classical rock-paper-scissor game and in this case, the user plays against the computer and can see if there is a winn, loose or draw and this can be repeated three times.
+
+I started with a wireframe  but had other emojs to start with,you can see them in the wireframe but those images where not consistent when changing sizes.
+
+![New Wireframe 1](https://github.com/MariaHdezG/rock-paper-scissors/assets/125393563/d5a5f57e-2125-42a1-a54c-6d2c1f59c441)
+
 ## Running Tests
 
 I had the HTML tested in Validator and there. No errors were returned when passing through the official W3C for CSS. JSHint suggests that I change Javascript version, but I choose to stick to the one that have since it is functioning for this project.
@@ -9,12 +14,11 @@ No unfixed bugs left.
 
 The test in Lighthouse that showed acceptable results. Since I only did one test that was acceptable, I just have those results:
 
-lighthouse-testlight-house-test.png![ligh-house-test](https://github.com/MariaHdezG/rock-paper-scissors/assets/125393563/1849a9f8-04eb-4e53-b55c-d1aa62bf041e)
-
+[light-house-test](https://github.com/MariaHdezG/rock-paper-scissors/assets/125393563/1849a9f8-04eb-4e53-b55c-d1aa62bf041e)
 
 The website had been tested with good results for responsiveness in those different media screens: Nest Hub Max, Samsung Galaxy A1/71, IPad Mini, IPhone Pro12, IPhone SE and you can see it in the mockups here:
-![mockups.png](../images/mockups.png)
 
+![mockups](https://github.com/MariaHdezG/rock-paper-scissors/assets/125393563/28ce2028-bd67-42df-bce6-6a2aaa0f33b4)
 
 ## Color Reference
 
