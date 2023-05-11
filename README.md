@@ -2,14 +2,21 @@
 
 Wireframes: I had used Balsamiq to create wireframes to design and organize the structure of the site.
 
-wireframe-project- alt text
-
 Features
 ![rock-paper-scissors.png](assets/images/rock-paper-scissors.png)
 
-Deploymenent The site was deployed to GitHub pages. The steps to deploy are as follows: In the GitHub repository, navigate to the Settings tab From the source section drop-down menu, select the Master Branch Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. The live link can be found here - https://mariahdezg.github.io/
+The site was deployed to GitHub pages. The steps to deploy are as follows: In the GitHub repository, navigate to the Settings tab From the source section drop-down menu, select the Master Branch Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. The live link can be found here - https://mariahdezg.github.io/
 
 I had the HTML tested in Validator and there. No errors were returned when passing through the official W3C for CSS. NJSHint suggests that I change Javascript version, but I choose to stick to the one that have since it is functioning for this project.
+
+Media
+
+The emoj of the rock is from [emoj of a hand making the rock gesture] (https://fontawesome.com/icons/hand-back-fist?f=classic&s=regular)
+
+The emoj of a paper is from [emoj of a hand making the paper gesture] 
+(https://fontawesome.com/icons/hand?f=classic&s=regular)
+
+The image of a scissors  is from [emoj of a hand making the scissors gesture] (https://fontawesome.com/icons/hand-scissors?f=classic&s=regular)
 
 No unfixed bugs left.
 
