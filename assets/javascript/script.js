@@ -10,7 +10,7 @@
   
   
   possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click",(e) => {
-  userChoice = e.target.id;
+  userChoice = e.currentTarget.id;
   userChoiceDisplay.innerHTML = userChoice;
   generateComputerChoice();
   getResult();
