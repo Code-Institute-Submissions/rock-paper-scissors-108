@@ -14,7 +14,7 @@ No unfixed bugs left.
 
 The test in Lighthouse that showed acceptable results. Since I only did one test that was acceptable, I just have those results:
 
-[light-house-test](https://github.com/MariaHdezG/rock-paper-scissors/assets/125393563/1849a9f8-04eb-4e53-b55c-d1aa62bf041e)
+![light-house-test](https://github.com/MariaHdezG/rock-paper-scissors/assets/125393563/fb5720cc-a504-4bca-8626-782846ec8724)
 
 The website had been tested with good results for responsiveness in those different media screens: Nest Hub Max, Samsung Galaxy A1/71, IPad Mini, IPhone Pro12, IPhone SE and you can see it in the mockups here:
 
