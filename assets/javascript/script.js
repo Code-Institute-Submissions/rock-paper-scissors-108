@@ -1,12 +1,12 @@
-// Codes are from Ania Kubow´s tutorial video and amended
+// Codes are from stackoverflow and amended
 
-const computerChoiceDisplay = document.getElementById("computerchoice");
-const userChoiceDisplay = document.getElementById("userchoice");
-const resultDisplay = document.getElementById("result");
-const possibleChoices = document.querySelectorAll("button");
-let userChoice;
-let computerChoice;
-let result;
+const $selectBtn = document.querySelectorAll("[data-selector]");
+const $displayUserScore = document.querySelector("#user-score");
+const $displayComputerScore = document.querySelector("#computer-score");
+const $showScore = document.querySelector("h5");
+const $theWinnerIs = document.querySelector('#result-winner');
+const $refreshBtnContainer = document.querySelector('#refresh-button-container');
+const $icons = ["💎", "🧻", "✂️"];
 
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click",(e) => {
