@@ -28,17 +28,8 @@ box-sizing: border-box;
     cursor: pointer;
     border-radius: 20%;
     transition: 150ms;
-
     
-    
-/* Title of the game */
-.title {
-    text-align: center;
-    top: 0;
-    font-size: 25px;
-}
-    
- /* to make the letters fit in in the buttons  */
+/* to make the letters fit in in the buttons  */
 #userchoice {
     font-size: small;
 }
