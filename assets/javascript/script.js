@@ -18,8 +18,13 @@ $selectBtn.forEach(function(button){
 button.addEventListener("click", function() {
 let computerOption = computerRandom(); // Store the random computer play on var
 const userOption = button.dataset.selector; // userOption is equal to data-selector attribute
-        
 
+// Calls on functions, plays the game and shows final winner.
+playGame(userOption, computerOption);
+theWinner();
+        
+        
+        
 function generateComputerChoice() {
     const randomNumber = Math.floor(Math.random() * 3) +1;
 
