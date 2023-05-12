@@ -13,6 +13,13 @@ const choices = ["rock", "paper", "scissors"];
 let userScore = 0;
 let computerScore = 0;
 
+// Choices
+$selectBtn.forEach(function(button){
+button.addEventListener("click", function() {
+let computerOption = computerRandom(); // Store the random computer play on var
+const userOption = button.dataset.selector; // userOption is equal to data-selector attribute
+        
+
 function generateComputerChoice() {
     const randomNumber = Math.floor(Math.random() * 3) +1;
 
