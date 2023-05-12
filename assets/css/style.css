@@ -52,6 +52,30 @@ box-sizing: border-box;
     justify-content: center;
 }
 
+h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+h5 {
+    margin-top: 7px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.emoj {
+    font-size: 3em;
+}
+
+.refresh-btn {
+    padding: .8em;
+    background: white;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+}
 
 /* Responsive Design */
 @media screen and (min-width: 500px)
