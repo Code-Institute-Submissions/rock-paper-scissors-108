@@ -51,22 +51,26 @@ $showScore.innerHTML = "Draw!";
  $showScore.innerHTML = "Draw!";
  }
  }
-
+ if (userOption === "scissors") {
+ if (computerOption === "paper") {
+ userScore++;
+ $displayUserScore.innerHTML = userScore;
+ $showScore.innerHTML = "The machine chooses "+"<span class=\"emoj\">" + $emojs[1] + "</span>" + ", You Winn!";
+ } else if (computerOption === "rock") {
+ computerScore++;
+ $displayComputerScore.innerHTML = computerScore;
+ $showScore.innerHTML = "The machine chooses "+"<span class=\"emoj\">" + $emojs[0] + "</span>" + ", You Lose!";
+ } else if (userOption === computerOption) {
+ $showScore.innerHTML = "Draw!";
+ }
+ }
+}
         
         
         
+        
 
-if (computerChoice === "paper" && userChoice === "scissors") {
-result = "You winn!";
-}
 
-if (computerChoice === "paper" && userChoice === "rock") {
-result = "You loose!";
-}
-
-if (computerChoice === "scissors" && userChoice === "paper") {
-    result = "You loose!";
-}
 if (computerChoice === "scissors" && userChoice === "rock") {
     result = "You winn!";
 }
