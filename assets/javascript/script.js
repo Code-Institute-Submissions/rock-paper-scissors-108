@@ -6,7 +6,7 @@ const $displayComputerScore = document.querySelector("#computer-score");
 const $showScore = document.querySelector("h5");
 const $theWinnerIs = document.querySelector('#result-winner');
 const $refreshBtnContainer = document.querySelector('#refresh-button-container');
-const $icons = ["💎", "🧻", "✂️"];
+const $emojs = ["💎", "🧻", "✂️"];
 
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click",(e) => {
