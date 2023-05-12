@@ -99,6 +99,12 @@ $selectBtn[i].disabled = false;}  //enable
 });
 });
 
+// Random computer choice
+function computerRandom () {
+const randomNumber = Math.floor(Math.random() * choices.length);
+return choices[randomNumber];
+}
+
         
         
         
