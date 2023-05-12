@@ -2,7 +2,7 @@ Rock paper scissors
 
 This project is about the classical rock-paper-scissor game and in this case, the user plays against the computer and can see if there is a winn, loose or draw and this can be repeated until one of those two accumulates 5 points and at least one point over the other player since there is no winn when it is a draw. The computer keep counting and when there is a winner, the computer invites the user to start the game all over again.
 
-I started with a wireframe  but had other emojs to start with,you can see them in the wireframe but those images where not consistent when changing sizes.
+I started with a wireframe  but had other emojs to start with,you can see them in the wireframe but those images where not consistent when changing sizes and the project had kept evolving, but in this image one can see the basic of it still.
 
 ![New Wireframe 1](https://github.com/MariaHdezG/rock-paper-scissors/assets/125393563/d5a5f57e-2125-42a1-a54c-6d2c1f59c441)
 
@@ -33,7 +33,7 @@ I would like to be be able to show all the different features that the game is c
 
 I had the HTML tested in Validator and there. No errors were returned when passing through the official W3C for CSS. JSHint suggests that I change Javascript version, but I choose to stick to the one that have since it is functioning for this project.
 
-There are 3 unfixex bugs that must be left unattended. Two of them in HTML, line 22, column 5 until line 22, column 8, where there is a header: <h5> with no visible content, but that headline keeps the results up, and the second bug in html is in line 25, column 13 until line 25, column 35, where a header <h3> containing an id of the winner of five scores is proclaimed and that box would not been uphold on place without it.
+There are 2 bugs that must be left unattended. Two of them in HTML, line 22, column 5 until line 22, column 8, where there is a header: <h5> with no visible content, but that headline keeps the results up, and the second bug in html is in line 25, column 13 until line 25, column 35, where a header <h3> containing an id of the winner of five scores is proclaimed and that box would not been uphold on place without it.
 
 The test in Lighthouse that showed acceptable results. Since I only did one test that was acceptable, I just have those results:
 
