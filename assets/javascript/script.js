@@ -74,13 +74,33 @@ $theWinnerIs.innerHTML = "You!";
 $theWinnerIs.innerHTML = "The machine!";
 }
 }
+
+if (userScore === 5 || computerScore === 5) {
+const $refreshBtn = document.createElement('button');
+$refreshBtn.appendChild(document.createTextNode("Play again!"));
+$refreshBtn.className = "refresh-btn";
+$refreshBtnContainer.appendChild($refreshBtn);
+            
+for (var i = 0, len = $selectBtn.length; i<len; i++){
+$selectBtn[i].disabled = true; }  //disable more selections
+          
+$refreshBtn.addEventListener('click', () => {
+userScore = 0;
+computerScore = 0;
+$displayUserScore.innerHTML = userScore;
+$displayComputerScore.innerHTML = computerScore;
+$showScore.innerHTML = "";
+$theWinnerIs.innerHTML = "";
+$refreshBtnContainer.innerHTML= "";
+for (var i = 0, len = $selectBtn.length; i<len; i++){
+$selectBtn[i].disabled = false;}  //enable
+});  
+}
+});
+});
+
         
         
         
 
 
-if (computerChoice === "scissors" && userChoice === "rock") {
-    result = "You winn!";
-}
-resultDisplay.innerHTML = result;
-}
