@@ -24,8 +24,8 @@ This is how it looks like when the user winns against the computer.
 This is how it looks like during the game when the computer is leading.
 ![computer leading during game](https://github.com/MariaHdezG/rock-paper-scissors/assets/125393563/575add70-be38-4ee7-bcf9-01db8121746b)
 
-And this is how it looks like when the user is leading during the game.
-![user leading during game](https://github.com/MariaHdezG/rock-paper-scissors/assets/125393563/7a27233a-89a3-4e74-8611-bce7b8015e5d)
+And this is how it looks like when the user is getting ahead during the game.
+![winn-scissors](https://github.com/MariaHdezG/rock-paper-scissors/assets/125393563/c4252b41-7357-4f8c-92a6-599036b77e6b)
 
 I would like to be be able to show all the different features that the game is capable of, but then it would bee far to many images to show. Hopfully you can imagen the rest of the situations
 
