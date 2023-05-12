@@ -65,7 +65,15 @@ $showScore.innerHTML = "Draw!";
  }
  }
 }
-        
+
+// Add text function to proclaim a winner
+function theWinner() {
+if (userScore === 5) {
+$theWinnerIs.innerHTML = "You!";
+} else if (computerScore === 5) {
+$theWinnerIs.innerHTML = "The machine!";
+}
+}
         
         
         
