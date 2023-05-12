@@ -12,6 +12,7 @@
 body {
 box-sizing: border-box;
 } 
+
  #container {
     text-align: center;
     margin-top: 10%;
@@ -34,41 +35,24 @@ box-sizing: border-box;
 .title {
     text-align: center;
     top: 0;
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 25px;
 }
-
-/* displaying and styling the three buttons in one line */
-.options {
-    margin: auto;
-    border-spacing: 20px;
-    align-content: center;
-   /*  width: 70px; 
-    height: 50px; */
-    justify-content: space-evenly;
-    margin-top: 5rem;
-    border-radius: 10px;
-    outline: none;
-    border-color: rgb(51, 107, 51);
-    cursor: pointer;
-    font-size: smaller;
-}
+    
  /* to make the letters fit in in the buttons  */
 #userchoice {
     font-size: small;
 }
-/* shows the choice that the computer had made */
-#computerchoice {
-font-size: small;
-text-align: center;
+
+.btn-selector:hover {
+    transform: scale(1.2);
 }
-/* shows who winns */
-.result{
-    margin-top: 5px;
-    font-size: 28px;
-    font-weight: bold;
+
+#results {
+    display: flex;
+    justify-content: center;
 }
-  
+
+
 /* Responsive Design */
 @media screen and (min-width: 500px)
 {  
