@@ -8,14 +8,10 @@ const $theWinnerIs = document.querySelector('#result-winner');
 const $refreshBtnContainer = document.querySelector('#refresh-button-container');
 const $emojs = ["💎", "🧻", "✂️"];
 
-
-possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click",(e) => {
-userChoice = e.currentTarget.id;
-userChoiceDisplay.innerHTML = userChoice;
-generateComputerChoice();
-getResult();
-
-}));
+// Score variables
+const choices = ["rock", "paper", "scissors"];
+let userScore = 0;
+let computerScore = 0;
 
 function generateComputerChoice() {
     const randomNumber = Math.floor(Math.random() * 3) +1;
