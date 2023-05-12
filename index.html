@@ -7,37 +7,30 @@
     <meta name="description" content="Rock, paper, scissors play online">
     <meta name="keywords" content="Rock, paper, scissors, play against computer">
     <link rel="stylesheet" href="assets/css/style.css">
-
+    
  <title>Rock Paper Scissors</title>
 </head>
-
 <body>
      <!-- Titel and instructions -->  
 <header><h1 id="title">Rock Paper Scissors </h1> </header>
-<h5 class="move">Make Your Choice</h5>
-
-<!-- This selection div contains the buttons to make a choice  -->
-<div class="options">
-<button id="rock"><i class="fa-regular fa-hand-back-fist"></i></button>
-<button id="paper"><i class="fa-regular fa-hand"></i></button>
-<button id="scissors"><i class="fa-regular fa-hand-scissors"></i></button>
-</div>
-
-<!--selection displays-->
-<div>
-<h3>Your Choice: <span id="userchoice"></span></h3>
-<h3>Computers Choice: <span id="computerchoice"></span></h3>
-</div>
-
- <!-- Results area -->         
-<h2>Result:<span id="result"></span></h2>
-
+  <div id="container">
+        <button class="btn-selector" data-selector="rock">💎</button>
+        <button class="btn-selector" data-selector="paper">🧻</button>
+        <button class="btn-selector" data-selector="scissors">✂️</button>
+        <div id="results">
+        <h4>You: <span id="user-score" class="score" data-user-score>0</span></h4>
+        <h4>Computer: <span id="computer-score" class="score" data-computer-score>0</span></h4>
+    </div>
+    <h5></h5>
+        <div>
+            <h3>And the winner is...</h3>
+            <h3 id="result-winner"></h3>
+        </div>
+        <div id="refresh-button-container">
+          
+        </div>
+    </div>
 <!-- Links to javascript -->  
 <script src="assets/javascript/script.js"></script>
-
-<!-- font awesome script -->
-<script src="https://kit.fontawesome.com/0e1ce4bf6e.js" crossorigin="anonymous"></script>
-
-
 </body>
 </html>
