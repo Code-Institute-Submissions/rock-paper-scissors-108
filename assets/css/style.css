@@ -9,18 +9,32 @@
     font-family: "Open Sans";
     font-size: larger;
 }
-  
+body {
+box-sizing: border-box;
+} 
+ #container {
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+}
+.btn-selector {
+    font-size: 4em;
+    background: rgb(177, 114, 153);
+    margin: .1em;
+    padding: .2em;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20%;
+    transition: 150ms;
+
+    
+    
 /* Title of the game */
 .title {
     text-align: center;
     top: 0;
     font-size: 50px;
-    font-weight: bold;
-}
-
-/* text that suggest to make a move in the game */
-.move{
-    font-size: 24px;
     font-weight: bold;
 }
 
