@@ -23,20 +23,21 @@ const userOption = button.dataset.selector; // userOption is equal to data-selec
 playGame(userOption, computerOption);
 theWinner();
         
-        
-        
-function generateComputerChoice() {
-    const randomNumber = Math.floor(Math.random() * 3) +1;
-
-    if (randomNumber === 1) {
-        computerChoice = "rock";
-    }
-    if (randomNumber === 2) {
-       computerChoice = "scissors";
-    }
-    if (randomNumber === 3) {
-        computerChoice = "paper";
-    }
+// Add function with results
+function playGame(userOption, computerOption) {
+if (userOption === "rock") {
+if (computerOption === "scissors") {
+userScore++;
+$displayUserScore.innerHTML = userScore;
+$showScore.innerHTML = "The machine chooses "+"<span class=\"emoj\">" + $emojs[2] + "</span>" + ", You Winn!";
+ } else if (computerOption === "paper") {
+computerScore++;
+$displayComputerScore.innerHTML = computerScore;
+$showScore.innerHTML = "The machine chooses "+"<span class=\"emoj\">" + $emojs[1] + "</span>" + ", You Lose!";
+} else if (userOption === computerOption) {
+$showScore.innerHTML = "Draw!";
+}
+}
 
     computerChoiceDisplay.innerHTML = computerChoice;
 }
